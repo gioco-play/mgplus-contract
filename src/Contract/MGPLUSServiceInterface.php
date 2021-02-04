@@ -13,7 +13,7 @@ interface MGPLUSServiceInterface {
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @param string $odd_type
+     * @param string $odd_type   限紅
      * @return mixed
      */
     function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $odd_type);
