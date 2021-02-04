@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "GiocoPlus\\MGPLS\\": "src/"
+            "GiocoPlus\\MGPLUS\\": "src/"
         }
     },
     "require": {}
