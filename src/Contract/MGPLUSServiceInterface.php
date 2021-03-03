@@ -1,10 +1,10 @@
 <?php
 declare(strict_types=1);
-namespace GiocoPlus\OBESPORT\Contract;
+namespace GiocoPlus\MGPLUS\Contract;
 /**
- * OBESPORT
+ * MGPLUS
  */
-interface OBESPORTServiceInterface {
+interface MGPLUSServiceInterface {
 
     /**
      * 遊戲啟動
@@ -13,9 +13,10 @@ interface OBESPORTServiceInterface {
      * @param string $account
      * @param string $game_code
      * @param string $language
+     * @param string $odd_type   限紅
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $odd_type);
 
     /**
      * 遊戲詳情

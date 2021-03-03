@@ -1,6 +1,6 @@
 {
-    "name": "gioco-plus/obesport-contract",
-    "description": "obesport Interface",
+    "name": "gioco-plus/mgplus-contract",
+    "description": "mgplus Interface",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "GiocoPlus\\OBESPORT\\": "src/"
+            "GiocoPlus\\MGPLUS\\": "src/"
         }
     },
     "require": {}
